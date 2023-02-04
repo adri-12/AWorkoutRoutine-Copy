@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1.5em;
+}
+
+h2 {
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+
+h3 {
+    padding-bottom: 30px;
+    text-align:center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.36px;
+}
+
+a {
+    color: #1895DC;
+}
+
+a:hover {
+    color:rgb(16, 99, 147);
+}
+.navbar {
+    padding: 10px 10vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1895DC;
+}
+
+.nav {
+    margin: 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    width: 412px;
+    height: 82px;
+}
+
+.links-container {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    line-height: 82px;
+}
+
+.link {
+    padding: 0 17px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link-item:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+    transition: 0.1s;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.content button {
+    background-color: #1895DC;
+    padding: 20px 60px;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.content button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content button:hover {
+   background-color: rgba(24,149,220,.85);
+}
+
+
+.me-container {
+    margin-top: 150px;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.me-container h2 {
+font-size: 35px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+}
+
+.me-container p {
+padding-bottom: 30px;
+font-size: 18px;    
+}
+
+.content p {
+font-size:27px;
+padding-top: 30px;
+color: #444444;
+}
+
+.guides {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 100px;
+padding: 80px 40px 95px;
+margin-left: auto;
+margin-right: auto;
+max-width: 1160px;
+}
+
+.list-styles li {
+    padding-bottom: 10px; 
+    font-size: 18px; 
+    line-height: 30px;
+}
+
+.guides ul {
+    padding-left: 30px;
+}
+
+.content-block {
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 40px 30px;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    box-shadow: rgb(0 0 0 / 5%) 0 3px 22px 2px;
+}
+
+.popular-workout {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.books ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 80px 40px 100px;
+}
+
+.books ul li {
+    padding-right: 100px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div:first-child {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    max-width: 1160px;
+}
+
+.bottom {
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.bottom span {
+    color: #999; 
+}
+
+.bottom a {
+    color: #bbb;
+}
+
+.bottom a:hover {
+    color: #1895DC;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.social-media span {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.social-media svg {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+}
+
+label {
+    flex-grow: 1;
+}
+
+.search-widget {
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-span {
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: block;
+    font-weight: 700;
+}
+.search-field {
+    width: 100%;
+    color: #555;
+    background-color: #fafafa;
+    border-color: #ccc;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.search-submit {
+    font-size: 15px;
+    color: #fff;
+    background-color: #1895dc;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.icon-search svg {
+    top: 0.125em;
+    position: relative;
+    fill: #fff;
+}
+
+.search-widget button:hover {
+    background-color: #1e73be;
+}
